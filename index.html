@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pixel Shasana - Digital artist</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+  <title>Pixel Shasana - Digital artist</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="jumbotron">
-    		<h1> Pixel Shasana</h1>
-    	</div>
+  <div class="container-fluid">
+    <div class="jumbotron">
+      <h1> Pixel Shasana</h1>
     </div>
-    <div class="container-fluid">
-    	<div class="col-xs-12">
-		    <h2>Choose Grid Size</h2>
-		    <form id="sizePicker" class="form-inline">
-				<div  class="form-group">
-					<label for="inputHeight">
-						Grid Height:
-						<input type="number" class="form-control" id="inputHeight" name="height" min="1" max="20" value="1">
-					</label>
-				</div>
-				<div class="form-group">
-					<label for="inputWidth">
-						Grid Width:
-						<input type="number" class="form-control" id="inputWidth" name="width" min="1" max="20" value="1">
-					</label>
-					
-				</div>
-				<input type="submit" value="Draw">
-				<input type="reset" value="Empty">
-		    </form>
-		    <script src="js/designs.js"></script>
-		    <h2>Pick A Color</h2>
-		    <input type="color" id="colorPicker">
-		    <h2>Design Canvas</h2>
-		    <table id="pixelCanvas"></table>
-		</div>
-	</div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-xs-12">
+      <h2>Choose Grid Size</h2>
+      <form id="sizePicker" class="form-inline">
+        <div  class="form-group">
+          <label for="inputHeight">
+            Grid Height:
+            <input type="number" class="form-control" id="inputHeight" name="height" min="1" max="20" value="1">
+          </label>
+        </div>
+        <div class="form-group">
+          <label for="inputWidth">
+            Grid Width:
+            <input type="number" class="form-control" id="inputWidth" name="width" min="1" max="20" value="1">
+          </label>
+          
+        </div>
+        <input type="submit" value="Draw">
+        <input type="reset" value="Empty">
+      </form>
+      <script src="js/designs.js"></script>
+      <h2>Pick A Color</h2>
+      <input type="color" id="colorPicker">
+      <h2>Design Canvas</h2>
+      <table id="pixelCanvas"></table>
+    </div>
+  </div>
 </body>
 </html>
